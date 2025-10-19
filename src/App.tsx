@@ -1,5 +1,5 @@
 import Header from './components/Header/Header';
-import Main from './components/Main/Main';
+import Main from './components/main/main';
 import Footer from './components/Footer/Footer';
 import './App.css';
 import logoImg from "./assets/img/hero/logo.png";
