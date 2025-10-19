@@ -1,0 +1,37 @@
+.dreamHome {
+    div {
+        color: white;
+        z-index: 1;
+
+        h1,
+        p {
+            max-width: 606px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 58px;
+            font-size: 70px;
+        }
+
+        p {
+            font-size: 30px;
+            line-height: 26px;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .dreamHome {
+        div {
+            h1 {
+                margin-bottom: 15px;
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}

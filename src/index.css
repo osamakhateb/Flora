@@ -1,0 +1,19 @@
+:root {
+  --padding-left-right: 70px;
+  --color-text: #222;
+  --bg-main-color: #025595;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+@media screen and (max-width: 992px) {
+  :root {
+    --padding-left-right: 20px;
+  }
+}

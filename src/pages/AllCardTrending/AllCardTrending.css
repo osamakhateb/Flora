@@ -1,0 +1,15 @@
+.tranding {
+    .cardsTrending {
+        display: flex;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .tranding {
+        .cardsTrending {
+            justify-content: center;
+        }
+    }
+}

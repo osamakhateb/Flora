@@ -1,0 +1,11 @@
+.allCardsWork {
+    display: flex;
+    gap: 43px;
+}
+
+@media screen and (max-width: 992px) {
+    .allCardsWork {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

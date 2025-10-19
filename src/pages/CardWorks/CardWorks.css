@@ -1,0 +1,30 @@
+.workSection {
+    .cardWork {
+        max-width: 380px;
+        padding: 30px 40px 80px;
+        border-radius: 15px;
+        cursor: pointer;
+        transition-duration: 0.5s;
+
+        h1 {
+            margin: 20px 0 10px;
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--color-text);
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+            color: #22222280;
+        }
+    }
+
+    .cardWork:hover {
+        background-color: var(--bg-main-color);
+        h1,
+        p {
+            color: white;
+        }
+    }
+}

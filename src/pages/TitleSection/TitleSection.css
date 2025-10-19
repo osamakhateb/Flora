@@ -1,0 +1,13 @@
+section {
+    .title {
+        font-weight: bold;
+        font-size: 39px;
+        color: var(--color-text);
+    }
+
+    .desc {
+        font-size: 15px;
+        margin: 5px 0 56px;
+        color: #22222280;
+    }
+}
