@@ -1,6 +1,4 @@
 import "./CardTrending.css";
-
-// تعريف الـ Props
 interface CardTrendingProps {
     image: string;
     price: string;
