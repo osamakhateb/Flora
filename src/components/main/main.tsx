@@ -2,16 +2,16 @@ import React from 'react';
 import AllCardWorks from "../../pages/AllCardWorks/AllCardWorks";
 import DreamHome from "../../pages/DreamHome/DreamHome";
 import TitleSection from "../../pages/TitleSection/TitleSection";
-import dreamHomeBg from "../../assets/img/home/Rectangle.png";
 import AllCardTrending from "../../pages/AllCardTrending/AllCardTrending";
 import RealEstateDeals from "../../pages/RealEstateDeals/RealEstateDeals";
-import "./Main.css";
+import dreamHomeBg from "../../assets/img/home/Rectangle.png";
 import house1 from "../../assets/img/Best/Card.png";
 import house2 from "../../assets/img/Best/Card1.png";
 import house3 from "../../assets/img/Best/Card2.png";
 import office1 from "../../assets/img/Best/Card.png";
 import office2 from "../../assets/img/Best/Card1.png";
 import farm1 from "../../assets/img/Best/Card2.png";
+import "./Main.css";
 
 const Main: React.FC = () => {
     const properties = [
